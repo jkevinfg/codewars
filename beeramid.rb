@@ -1,7 +1,5 @@
 # link : https://www.codewars.com/kata/51e04f6b544cf3f6550000c1/train/ruby
 
-
-
 def beeramid(bonus,price)
     nivel = 0
     return nivel if (bonus < 0 && price < 0)
