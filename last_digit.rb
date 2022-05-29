@@ -5,7 +5,7 @@
 # 0'0 tome tome 1 
 
 def last_digit(n1,n2)
-    return "method last_digit reciveid two non-negative integers" unless (n1.is_a?(Integer) && n1 >=0 && n2.is_a?(Integer) &&  n2 >=0)
+    return "method last_digit receives two non-negative integers" unless (n1.is_a?(Integer) && n1 >=0 && n2.is_a?(Integer) &&  n2 >=0)
     last_number = 0
     return last_number+1 if ((n1 == 0 && n2==0) || n2==0)
     if !(n1 == 0)
